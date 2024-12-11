@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #004080;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #004080;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0059b3;
+}
+
+#preview {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.trip-sheet {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+/* Header Styling */
+.header {
+    background-color: #004080;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Print Button Styling */
+.print-button {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.print-button button {
+    background-color: #004080;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.print-button button:hover {
+    background-color: #0059b3;
+}
+
+/* Driver Information */
+.driver-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #e6f7ff;
+    border-bottom: 1px solid #ccc;
+}
+
+.driver-info .left, .driver-info .right {
+    text-align: left;
+    width: 45%;
+}
+
+.driver-info p {
+    margin: 5px 0;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #004080;
+    color: #ffffff;
+    text-align: center;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+/* Comments Section */
+.comments {
+    padding: 15px;
+    border-top: 1px solid #ccc;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .trip-sheet {
+        max-width: 100%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .driver-info {
+        flex-direction: column;
+    }
+
+    .driver-info .left, .driver-info .right {
+        width: 100%;
+    }
+
+    table {
+        font-size: 0.8em;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+
+    .print-button button {
+        font-size: 0.9em;
+        padding: 8px 15px;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}

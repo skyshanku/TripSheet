@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Sheet Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Trip Sheet Generator</h1>
+
+        <!-- Form Section -->
+        <form id="trip-form">
+            <h2>Driver Information</h2>
+            <label for="driver-name">Driver's Name:</label>
+            <input type="text" id="driver-name" placeholder="Enter driver's name" required />
+
+            <label for="truck-number">Truck Number:</label>
+            <input type="text" id="truck-number" placeholder="Enter truck number" required />
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" required />
+
+            <label for="start-odometer">Starting Odometer Reading:</label>
+            <input type="number" id="start-odometer" required />
+
+            <label for="end-odometer">Ending Odometer Reading:</label>
+            <input type="number" id="end-odometer" required />
+
+            <h2>Trip Records</h2>
+            <label for="cargo">Cargo Load:</label>
+            <input type="text" id="cargo" placeholder="Enter cargo details" required />
+
+            <label for="origin">Origin City:</label>
+            <input type="text" id="origin" required />
+
+            <label for="destination">Destination City:</label>
+            <input type="text" id="destination" required />
+
+            <label for="rate">Rate Per KM:</label>
+            <input type="number" id="rate" required />
+
+            <button type="button" id="generate-btn">Generate Trip Sheet</button>
+        </form>
+
+        <!-- Preview Section -->
+        <div id="preview">
+            <!-- The generated Trip Sheet HTML template will appear here -->
+        </div>
+
+        <button id="download-btn" style="display:none;">Download PDF</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
